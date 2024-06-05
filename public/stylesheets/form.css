@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: rgb(89, 89, 89);
+    border-radius: 2rem;
+}
+
+#username{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#message{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    height: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input:hover, input:focus{
+    background-color: rgb(218, 218, 218);
+    transition: 0.5s;
+}
+
+#submitBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submitBtn button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#submitBtn button:hover, #submitBtn button:focus{
+    background-color: rgb(71, 71, 71);
+    font-size: 1.25rem;
+    transition: 0.5s;
+}
